@@ -1,3 +1,6 @@
+body {
+    background: #1c89b4;
+}
 #menu, #take-order {
                 display: flex;
                 flex-direction: row;
@@ -8,7 +11,7 @@
             }
 
             .menu-item {
-                border: 3px solid gray;
+                border: 3px solid rgb(180, 56, 56);
             }
 
             .menu-item > h4,

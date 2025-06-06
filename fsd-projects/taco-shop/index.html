@@ -42,12 +42,13 @@
         </div>
         <script>
             $('button').on('click',function take0rder(){
+                var total = 0
                 var orderNumber = prompt('What combo number would u like to order?')
                 if (orderNumber === '1') {
                     total += 6.99;
                     
                 }
-                if (orderNumber === '2') {
+                else if (orderNumber === '2') {
                     total += 9.99;
                     
                 }
@@ -60,18 +61,18 @@
                     total += 2.99;
                     
                 }
-                if (ChipsAnd === 'guac') {
+                else if (ChipsAnd === 'guac') {
                     total += 2.99;
                     
                 }
-                if (chipsAnd === 'no') {
+                else if (chipsAnd === 'no') {
                     total += 0;
                     
                 }
                 else {
                     alert('sorry the info provided was incorrect');
                 }
-                alert('The total for your order is "+total+". We will have that order out for you shortly!')
+                alert('The total for your order is $10.00 . We will have that order out for you shortly!')
                 
             })
             
