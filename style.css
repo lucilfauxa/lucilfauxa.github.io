@@ -2,7 +2,7 @@ body {
     background: rgb(125, 198, 205);
     color: rgb(45, 45, 45);
     padding: 10px;
-    font-family: Arial, sans-serif;
+    font-family: "Papyrus", Fantasy;
 }
 
 #all-contents {
@@ -22,7 +22,7 @@ nav {
 h1 {
     display: flex;
     align-items: center;
-    color: rgba(94, 61, 28, 0.96);
+    color: rgba(5, 3, 1, 0.96);
     flex: 1;
     margin: 0;
 }
